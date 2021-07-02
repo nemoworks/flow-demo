@@ -1,0 +1,35 @@
+{
+    "nodes": [
+        {
+            "id": "5257b734-18f3-419f-b5d8-43e15fa6ba34",
+            "status": "NOTRUNNING",
+            "label": "Step1",
+            "initial": true,
+            "terminal": false
+        },
+        {
+            "id": "a4320f90-88ea-48f8-a57f-fa8fd12ec080",
+            "status": "NOTRUNNING",
+            "label": "Step2",
+            "initial": false,
+            "terminal": false
+        },
+        {
+            "id": "4e9bf4f5-07c8-4eb7-9d6e-65518b9e7f7c",
+            "status": "NOTRUNNING",
+            "label": "Step3",
+            "initial": false,
+            "terminal": true
+        }
+    ],
+    "edges": [
+        {
+            "source": "5257b734-18f3-419f-b5d8-43e15fa6ba34",
+            "target": "a4320f90-88ea-48f8-a57f-fa8fd12ec080"
+        },
+        {
+            "source": "a4320f90-88ea-48f8-a57f-fa8fd12ec080",
+            "target": "4e9bf4f5-07c8-4eb7-9d6e-65518b9e7f7c"
+        }
+    ]
+}
